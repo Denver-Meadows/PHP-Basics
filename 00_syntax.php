@@ -10,7 +10,16 @@
     <title>Document</title>
   </head>
   <body>
-    Hello World
-    <!--Echo HTML tags-->
+    <!-- Writing hello world in php file with opening and closing php tag -- much like ejs templating -->
+    <?php 
+    echo "Hello World";
+    echo " and PHP";
+    ?>
+
+    <?php 
+      echo '<br>';
+      echo "<button>Click Me</button>";
+      echo "Hello from another tag";
+    ?>
   </body>
 </html>
