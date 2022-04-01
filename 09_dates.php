@@ -1,6 +1,6 @@
 <?php
 
-// Print current date
+// Print current date -- must specify format
 echo date('Y-m-d H:i:s') . '<br>';
 
 // Print yesterday
